@@ -1,0 +1,99 @@
+body {
+	text-align: center;
+	background: #F8F8F8;
+	font-family: cursive;
+}
+.backSlav {
+	background: url("http://imgur.com/NP4Xh6z.jpg") no-repeat top;
+	margin: 5% auto;
+	width: 80%;
+}
+
+a {
+	text-decoration: none;
+	font-size: 2em;
+}
+h1 {
+	margin-bottom: 20px;
+}
+
+.link {
+	margin: 0 auto;
+}
+
+h1 {
+	background-color: Aqua;
+	color: MidnightBlue;
+	font-family: Monospace;
+	font-size: 50px;
+	text-align : center;
+}
+.smiley {
+	font-size: 100px;
+	color: rgba(255, 252, 236, 1.0);
+	background-color: rgba(255, 250, 0, 0.6); 
+	text-decoration: none;
+}
+button {
+	font-size: 70px;
+	color: pink;
+	background-color: orange;
+}
+
+.margina {
+	margin-top: 5%;
+}
+
+.vrteska {
+	transition: transform 10s ease-in-out;
+}
+
+.vrteska:hover {
+	transform: rotate(-3600deg);
+	transition-duration: 5s;
+}
+
+.cvetBack {
+	background-color: aqua;
+	transition: 10s ease-in-out;
+}
+
+.cvetBack:hover {
+	background-color: blue;
+	transition: background-color 10s ease-in-out;
+}
+
+.page1 {
+	position: fixed;
+	left: 25%;
+	top: 25%;
+}
+
+button {
+	border: 1px solid red;
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+}
+
+.strelicaDesno {
+	transition: 3s ease-in-out;
+}
+
+.strelicaDesno:hover {
+	transition: transform 2s ease-in-out;
+	transform: translate(50px, 0);
+}
+
+.putUcvece {
+	transition: 3s ease-out;
+}
+
+.putUcvece:hover {
+	transition: transform 4s ease-out;
+	transform: scale(1.5, 1.5);
+}
+
+.page4 {
+	margin-top: -3%;
+}
