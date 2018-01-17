@@ -3,6 +3,7 @@ body {
 	background: #F8F8F8;
 	font-family: cursive;
 }
+
 .backSlav {
 	background: url("http://imgur.com/NP4Xh6z.jpg") no-repeat top;
 	margin: 5% auto;
@@ -28,12 +29,29 @@ h1 {
 	font-size: 50px;
 	text-align : center;
 }
-.smiley {
+
+.smiley, .suncokret {
 	font-size: 100px;
 	color: rgba(255, 252, 236, 1.0);
-	background-color: rgba(255, 250, 0, 0.6); 
+	background-color: rgb(68, 0, 255); 
 	text-decoration: none;
+	transition: all 1s ease-in-out;
 }
+
+.smiley:hover {
+	transform: scale(2, 2);
+	color: rgb(68, 0, 255);
+	background-color: rgba(255, 252, 236, 1.0);
+}
+
+.suncokret:hover {
+	font-size: 100px;
+	color: rgba(255, 252, 236);
+	background-color: transparent; 
+	transition: all 1s ease-in-out;	
+}
+
+
 button {
 	font-size: 70px;
 	color: pink;
@@ -100,4 +118,9 @@ button {
 
 .cvet {
 	margin-top: 5%;
+}
+
+.granica {
+	border-radius: 50%;
+	display: inline;
 }
